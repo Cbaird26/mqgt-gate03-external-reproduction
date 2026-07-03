@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TMP = ROOT / "tmp" / "smoke"
-RESULTS = ROOT / "results"
+RESULTS = TMP / "results"
 
 
 def run(args: list[str]) -> None:
@@ -35,9 +35,9 @@ def main() -> None:
         "scripts/analyze_blocks.py",
         *[str(path) for path in sorted(null_dir.glob("*.json"))],
         "--out",
-        "results/ci_synthetic_null_report.json",
+        str(RESULTS / "ci_synthetic_null_report.json"),
         "--md-out",
-        "results/ci_synthetic_null_report.md",
+        str(RESULTS / "ci_synthetic_null_report.md"),
     ])
 
     run([
@@ -53,9 +53,9 @@ def main() -> None:
         "scripts/analyze_blocks.py",
         *[str(path) for path in sorted(positive_dir.glob("*.json"))],
         "--out",
-        "results/ci_synthetic_positive_report.json",
+        str(RESULTS / "ci_synthetic_positive_report.json"),
         "--md-out",
-        "results/ci_synthetic_positive_report.md",
+        str(RESULTS / "ci_synthetic_positive_report.md"),
     ])
 
     null_status = load_status(RESULTS / "ci_synthetic_null_report.json")
@@ -65,11 +65,10 @@ def main() -> None:
     if positive_status != "candidate_support_requires_attestation":
         raise SystemExit(f"Unexpected positive status: {positive_status}")
 
-    run([sys.executable, "scripts/build_packet_manifest.py"])
     print(json.dumps({
         "null_status": null_status,
         "positive_status": positive_status,
-        "manifest": "PACKET_MANIFEST.json",
+        "manifest": "unchanged",
     }, indent=2))
 
 

@@ -1,12 +1,17 @@
 {
   "packet": "GATE03_external_reproduction_packet_v0_1",
-  "generated_utc": "2026-07-03T00:32:16.771958+00:00",
-  "file_count": 29,
+  "generated_utc": "2026-07-03T17:45:01.146605+00:00",
+  "file_count": 26,
   "files": [
     {
       "path": ".gitignore",
-      "size_bytes": 49,
-      "sha256": "8e59a86d35a5a46aeddcb496e5dfb58b92c441a7ec6f21af6fcfcdbb45aa4ff3"
+      "size_bytes": 62,
+      "sha256": "fd177cf0b2052d66f07e024f6217e2928d950f2238de26862040fa6d3a0bb90e"
+    },
+    {
+      "path": "CLAUDE_FABLE_GATE03_AUDIT_PROMPT.md",
+      "size_bytes": 2543,
+      "sha256": "ddbf1770206536b44fb5d92e66e13a786c55bb8e5e548228dc2e3b17c279b581"
     },
     {
       "path": "CODEX_RELEASE_NOTES.md",
@@ -42,26 +47,6 @@
       "path": "README.md",
       "size_bytes": 3118,
       "sha256": "8fd13fbeb1e578682ba77bdb9347d51d00bba9e4621c0a48527e96009fab9cb8"
-    },
-    {
-      "path": "results/ci_synthetic_null_report.json",
-      "size_bytes": 3536,
-      "sha256": "39f2ebe8f8875b3f11f30e2f376085c873128e0af3cc46f7a598f6c1ff012b87"
-    },
-    {
-      "path": "results/ci_synthetic_null_report.md",
-      "size_bytes": 866,
-      "sha256": "753f6777c1c4518c5e6b2014a04e32d3a8df90b79a9aa616aa73fd1ae6932e99"
-    },
-    {
-      "path": "results/ci_synthetic_positive_report.json",
-      "size_bytes": 3597,
-      "sha256": "45c20138fe931f78df6e1c77dfe03b8eda0f6f1c62c82b53a95163ed5e106d1a"
-    },
-    {
-      "path": "results/ci_synthetic_positive_report.md",
-      "size_bytes": 919,
-      "sha256": "0761f48001f90241e2835bd463790c1c3b5d0e456ea3954e9f256d27a21be958"
     },
     {
       "path": "results/recovered_icloud_formal_meditation_report.json",
@@ -110,8 +95,8 @@
     },
     {
       "path": "scripts/run_smoke_tests.py",
-      "size_bytes": 2176,
-      "sha256": "906c8df9fedd0edd61fa83a75f09dca4680083e5d6156c41ad62155ec182a3ac"
+      "size_bytes": 2130,
+      "sha256": "a90e5b5fd42363380c3b9b22bc32a41e0d257cec95dc8aa18cfbc72dd764ac65"
     },
     {
       "path": "scripts/verify_manifest.py",
