@@ -1,0 +1,100 @@
+{
+  "generated_utc": "2026-07-03T00:27:42.421126+00:00",
+  "analyzer": "GATE03_external_reproduction_packet_v0_1/scripts/analyze_blocks.py",
+  "alpha": 0.01,
+  "min_formal_runs": 3,
+  "permutations": 10000,
+  "input_count": 3,
+  "formal_run_count": 3,
+  "runs": [
+    {
+      "path": "/Users/christophermichaelbaird/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_001431_e259c51c_blocks.json",
+      "sha256": "59011fb33808c93d622ffdb041f73e87caa64cd18260c65cfd092f965cd35363",
+      "run_id": "qrng_experiment_20260314_001431_e259c51c",
+      "operator_id": "",
+      "device_id_hash": "",
+      "intervention": "meditation",
+      "direction": "two-sided",
+      "block_count": 20,
+      "control_blocks": 10,
+      "intervention_blocks": 10,
+      "total_bits": 2000000,
+      "min_block_bits": 100000,
+      "control_mean_p1": 0.499655,
+      "intervention_mean_p1": 0.5005919999999999,
+      "difference_i_minus_c": 0.0009369999999999101,
+      "permutation_p": 0.18048195180481952,
+      "formal_run": true,
+      "p1_source_methods": [
+        "p_hat"
+      ]
+    },
+    {
+      "path": "/Users/christophermichaelbaird/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_004101_c72a681e_blocks.json",
+      "sha256": "abc890d7b6a8ba9e33ae085e62dac64736f69d76d420a6f335839aaf261aacb6",
+      "run_id": "qrng_experiment_20260314_004101_c72a681e",
+      "operator_id": "",
+      "device_id_hash": "",
+      "intervention": "meditation",
+      "direction": "two-sided",
+      "block_count": 20,
+      "control_blocks": 10,
+      "intervention_blocks": 10,
+      "total_bits": 2000000,
+      "min_block_bits": 100000,
+      "control_mean_p1": 0.4996090000000001,
+      "intervention_mean_p1": 0.5003029999999999,
+      "difference_i_minus_c": 0.0006939999999998614,
+      "permutation_p": 0.36536346365363465,
+      "formal_run": true,
+      "p1_source_methods": [
+        "ones_over_bit_count"
+      ]
+    },
+    {
+      "path": "/Users/christophermichaelbaird/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_010459_ccb8f429_blocks.json",
+      "sha256": "2e985fee7ae2a605cabfc57a9ae2c9b6034537c0df2267bacc9c01cdfb1a8729",
+      "run_id": "qrng_experiment_20260314_010459_ccb8f429",
+      "operator_id": "",
+      "device_id_hash": "",
+      "intervention": "meditation",
+      "direction": "two-sided",
+      "block_count": 20,
+      "control_blocks": 10,
+      "intervention_blocks": 10,
+      "total_bits": 2000000,
+      "min_block_bits": 100000,
+      "control_mean_p1": 0.49929300000000004,
+      "intervention_mean_p1": 0.49973999999999996,
+      "difference_i_minus_c": 0.0004469999999999197,
+      "permutation_p": 0.5223477652234777,
+      "formal_run": true,
+      "p1_source_methods": [
+        "ones_over_bit_count"
+      ]
+    }
+  ],
+  "formal_pooled": {
+    "control_blocks": 30,
+    "intervention_blocks": 30,
+    "control_mean_p1": 0.49951900000000005,
+    "intervention_mean_p1": 0.5002116666666666,
+    "difference_i_minus_c": 0.0006926666666665637,
+    "permutation_p": 0.0912908709129087
+  },
+  "all_pooled": {
+    "control_blocks": 30,
+    "intervention_blocks": 30,
+    "control_mean_p1": 0.49951900000000005,
+    "intervention_mean_p1": 0.5002116666666666,
+    "difference_i_minus_c": 0.0006926666666665637,
+    "permutation_p": 0.0912908709129087
+  },
+  "decision": {
+    "status": "not_promotable",
+    "reasons": [
+      "pooled_permutation_p_not_below_alpha"
+    ],
+    "gate03_effect": "no_gate_promotion"
+  }
+}

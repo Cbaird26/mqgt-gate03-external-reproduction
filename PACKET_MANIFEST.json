@@ -1,0 +1,153 @@
+{
+  "packet": "GATE03_external_reproduction_packet_v0_1",
+  "generated_utc": "2026-07-03T00:32:16.771958+00:00",
+  "file_count": 29,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 49,
+      "sha256": "8e59a86d35a5a46aeddcb496e5dfb58b92c441a7ec6f21af6fcfcdbb45aa4ff3"
+    },
+    {
+      "path": "CODEX_RELEASE_NOTES.md",
+      "size_bytes": 761,
+      "sha256": "7e08d3de86f7e605e66874e5c993f4baeabaf4a36e0fbf4db5c4e67f7b6ada99"
+    },
+    {
+      "path": "DATA_SCHEMA.md",
+      "size_bytes": 1131,
+      "sha256": "3991ae8e1cffb01dfd5c865ce28e669c860cc2dc263675e0bfd6637f7d95acdd"
+    },
+    {
+      "path": "INDEPENDENT_OPERATOR_CHECKLIST.md",
+      "size_bytes": 1039,
+      "sha256": "5bb41fe293357677923bc7c618533591c773d2984e09f3018d87616b4f1aef26"
+    },
+    {
+      "path": "LAB_STATUS.md",
+      "size_bytes": 1266,
+      "sha256": "94c2afe4c06dd7adbf5ca10d90b75dee9d9270f97508650dac9eca8537385aa5"
+    },
+    {
+      "path": "Makefile",
+      "size_bytes": 223,
+      "sha256": "31d57168ea55309b06e91b10ff46004e092af2938459d528d8af22a39d7da55c"
+    },
+    {
+      "path": "PREREGISTRATION.md",
+      "size_bytes": 2186,
+      "sha256": "2d5b51f5cdacbefa044f0796f5dc1c10f48d7903f192c6c46014886d0f8f7520"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3118,
+      "sha256": "8fd13fbeb1e578682ba77bdb9347d51d00bba9e4621c0a48527e96009fab9cb8"
+    },
+    {
+      "path": "results/ci_synthetic_null_report.json",
+      "size_bytes": 3536,
+      "sha256": "39f2ebe8f8875b3f11f30e2f376085c873128e0af3cc46f7a598f6c1ff012b87"
+    },
+    {
+      "path": "results/ci_synthetic_null_report.md",
+      "size_bytes": 866,
+      "sha256": "753f6777c1c4518c5e6b2014a04e32d3a8df90b79a9aa616aa73fd1ae6932e99"
+    },
+    {
+      "path": "results/ci_synthetic_positive_report.json",
+      "size_bytes": 3597,
+      "sha256": "45c20138fe931f78df6e1c77dfe03b8eda0f6f1c62c82b53a95163ed5e106d1a"
+    },
+    {
+      "path": "results/ci_synthetic_positive_report.md",
+      "size_bytes": 919,
+      "sha256": "0761f48001f90241e2835bd463790c1c3b5d0e456ea3954e9f256d27a21be958"
+    },
+    {
+      "path": "results/recovered_icloud_formal_meditation_report.json",
+      "size_bytes": 3541,
+      "sha256": "28f12423b6a7c1de156dd8d0fae5a5ef75acd0aeb4bfb67a02fc121385d02f03"
+    },
+    {
+      "path": "results/recovered_icloud_formal_meditation_report.md",
+      "size_bytes": 926,
+      "sha256": "b207d6eb10823a80692cda5783111e753c15653b899ae34599993d14ac6c03c7"
+    },
+    {
+      "path": "results/synthetic_formal_null_report.json",
+      "size_bytes": 3299,
+      "sha256": "009e23c5dcb235b2f3b9da64a45f75214a91f2f6a6648e1c81b2391f03ad2879"
+    },
+    {
+      "path": "results/synthetic_formal_null_report.md",
+      "size_bytes": 866,
+      "sha256": "52f43e9dce9d53c54d788adc693336eee2adfd73d9ff283e9e653d3cca46727d"
+    },
+    {
+      "path": "results/synthetic_formal_positive_report.json",
+      "size_bytes": 3360,
+      "sha256": "236caadbc880f10f31f1deadf106d9fedf65e712d4c8be9f473da0597ea55582"
+    },
+    {
+      "path": "results/synthetic_formal_positive_report.md",
+      "size_bytes": 919,
+      "sha256": "a7a30905e3e131f51e20355f3ed664d2f4888d7ff1252381053c564f67a5bc9d"
+    },
+    {
+      "path": "scripts/analyze_blocks.py",
+      "size_bytes": 8786,
+      "sha256": "daaa62d0d39498b4d55352a20ac614456605a63bbbb51cbb230ad73c4f436f73"
+    },
+    {
+      "path": "scripts/build_packet_manifest.py",
+      "size_bytes": 1627,
+      "sha256": "986014818a3feb4541b27ac56e88f52e738dbf537dc8d87d7bb6d5e2caafdfa7"
+    },
+    {
+      "path": "scripts/make_synthetic_blocks.py",
+      "size_bytes": 2166,
+      "sha256": "dda5c3fd063623b8128cb9be75679d1c4f05d5252fb8d869777440d9b618f60c"
+    },
+    {
+      "path": "scripts/run_smoke_tests.py",
+      "size_bytes": 2176,
+      "sha256": "906c8df9fedd0edd61fa83a75f09dca4680083e5d6156c41ad62155ec182a3ac"
+    },
+    {
+      "path": "scripts/verify_manifest.py",
+      "size_bytes": 1205,
+      "sha256": "0ee9b8de3a5642c2c9aa191d011d461f55154116a1888a5d174974061259b670"
+    },
+    {
+      "path": "tests/synthetic_formal_null/synthetic_formal_001.json",
+      "size_bytes": 4977,
+      "sha256": "2e620374852e6a458f6c18cc28b19732a1a636d17fb8f1656b7523d652610f24"
+    },
+    {
+      "path": "tests/synthetic_formal_null/synthetic_formal_002.json",
+      "size_bytes": 4975,
+      "sha256": "44c5b6da4f75070f2b1b0550d3768b4c93dad48a2bfd64a2f53435d851b5e59a"
+    },
+    {
+      "path": "tests/synthetic_formal_null/synthetic_formal_003.json",
+      "size_bytes": 4973,
+      "sha256": "436d2a8e239a301a700588a9c51fc6111d4b45d804814cd888ce2a255fdf5d1e"
+    },
+    {
+      "path": "tests/synthetic_formal_positive/synthetic_formal_001.json",
+      "size_bytes": 4977,
+      "sha256": "186ca9b0011e6ab8e2d87cd64601965ed65b1a263ffde7d7262db7ee617fdd69"
+    },
+    {
+      "path": "tests/synthetic_formal_positive/synthetic_formal_002.json",
+      "size_bytes": 4975,
+      "sha256": "92175784160c528f01a722dc6b3cc77097eeaf876789e544f6325cdf556a07e0"
+    },
+    {
+      "path": "tests/synthetic_formal_positive/synthetic_formal_003.json",
+      "size_bytes": 4973,
+      "sha256": "9aa67dd67ddd1f7ecf9802216a77d6e76d704bed4c21542b6e3ebe637d7299b6"
+    }
+  ],
+  "boundary": "GATE-03 external reproduction only; no final ToE closure promotion."
+}

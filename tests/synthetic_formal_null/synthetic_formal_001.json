@@ -1,0 +1,190 @@
+{
+  "run_id": "synthetic_formal_001",
+  "operator_id": "synthetic-smoke-test",
+  "device_id_hash": "synthetic-not-a-device",
+  "intervention": "meditation",
+  "randomization_seed": 20260704,
+  "direction": "two-sided",
+  "blocks": [
+    {
+      "block_index": 0,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 50255,
+      "p_hat": 0.50255,
+      "start_time": "2026-07-03T01:00:00+00:00",
+      "end_time": "2026-07-03T01:01:00+00:00"
+    },
+    {
+      "block_index": 1,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 50028,
+      "p_hat": 0.50028,
+      "start_time": "2026-07-03T01:01:00+00:00",
+      "end_time": "2026-07-03T01:02:00+00:00"
+    },
+    {
+      "block_index": 2,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 50022,
+      "p_hat": 0.50022,
+      "start_time": "2026-07-03T01:02:00+00:00",
+      "end_time": "2026-07-03T01:03:00+00:00"
+    },
+    {
+      "block_index": 3,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 49879,
+      "p_hat": 0.49879,
+      "start_time": "2026-07-03T01:03:00+00:00",
+      "end_time": "2026-07-03T01:04:00+00:00"
+    },
+    {
+      "block_index": 4,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 50028,
+      "p_hat": 0.50028,
+      "start_time": "2026-07-03T01:04:00+00:00",
+      "end_time": "2026-07-03T01:05:00+00:00"
+    },
+    {
+      "block_index": 5,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 50042,
+      "p_hat": 0.50042,
+      "start_time": "2026-07-03T01:05:00+00:00",
+      "end_time": "2026-07-03T01:06:00+00:00"
+    },
+    {
+      "block_index": 6,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 50122,
+      "p_hat": 0.50122,
+      "start_time": "2026-07-03T01:06:00+00:00",
+      "end_time": "2026-07-03T01:07:00+00:00"
+    },
+    {
+      "block_index": 7,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 49863,
+      "p_hat": 0.49863,
+      "start_time": "2026-07-03T01:07:00+00:00",
+      "end_time": "2026-07-03T01:08:00+00:00"
+    },
+    {
+      "block_index": 8,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 50042,
+      "p_hat": 0.50042,
+      "start_time": "2026-07-03T01:08:00+00:00",
+      "end_time": "2026-07-03T01:09:00+00:00"
+    },
+    {
+      "block_index": 9,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 50119,
+      "p_hat": 0.50119,
+      "start_time": "2026-07-03T01:09:00+00:00",
+      "end_time": "2026-07-03T01:10:00+00:00"
+    },
+    {
+      "block_index": 10,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 50145,
+      "p_hat": 0.50145,
+      "start_time": "2026-07-03T01:10:00+00:00",
+      "end_time": "2026-07-03T01:11:00+00:00"
+    },
+    {
+      "block_index": 11,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 49867,
+      "p_hat": 0.49867,
+      "start_time": "2026-07-03T01:11:00+00:00",
+      "end_time": "2026-07-03T01:12:00+00:00"
+    },
+    {
+      "block_index": 12,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 50042,
+      "p_hat": 0.50042,
+      "start_time": "2026-07-03T01:12:00+00:00",
+      "end_time": "2026-07-03T01:13:00+00:00"
+    },
+    {
+      "block_index": 13,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 50143,
+      "p_hat": 0.50143,
+      "start_time": "2026-07-03T01:13:00+00:00",
+      "end_time": "2026-07-03T01:14:00+00:00"
+    },
+    {
+      "block_index": 14,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 49977,
+      "p_hat": 0.49977,
+      "start_time": "2026-07-03T01:14:00+00:00",
+      "end_time": "2026-07-03T01:15:00+00:00"
+    },
+    {
+      "block_index": 15,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 50113,
+      "p_hat": 0.50113,
+      "start_time": "2026-07-03T01:15:00+00:00",
+      "end_time": "2026-07-03T01:16:00+00:00"
+    },
+    {
+      "block_index": 16,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 50125,
+      "p_hat": 0.50125,
+      "start_time": "2026-07-03T01:16:00+00:00",
+      "end_time": "2026-07-03T01:17:00+00:00"
+    },
+    {
+      "block_index": 17,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 49808,
+      "p_hat": 0.49808,
+      "start_time": "2026-07-03T01:17:00+00:00",
+      "end_time": "2026-07-03T01:18:00+00:00"
+    },
+    {
+      "block_index": 18,
+      "condition": "control",
+      "bit_count": 100000,
+      "ones": 50089,
+      "p_hat": 0.50089,
+      "start_time": "2026-07-03T01:18:00+00:00",
+      "end_time": "2026-07-03T01:19:00+00:00"
+    },
+    {
+      "block_index": 19,
+      "condition": "intervention",
+      "bit_count": 100000,
+      "ones": 50132,
+      "p_hat": 0.50132,
+      "start_time": "2026-07-03T01:19:00+00:00",
+      "end_time": "2026-07-03T01:20:00+00:00"
+    }
+  ]
+}
