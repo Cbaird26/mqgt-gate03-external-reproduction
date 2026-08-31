@@ -1,5 +1,8 @@
 # Data Schema - GATE-03 Block JSON v0.1
 
+> **Historical v0.1 schema.** Retained to interpret the frozen packet and its
+> old bits. It is not the schema for a future apparatus-sourced v0.2 design.
+
 Each run is one JSON file.
 
 ```json

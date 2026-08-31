@@ -1,5 +1,9 @@
 # Preregistration - GATE-03 QRNG External Reproduction v0.1
 
+> **Historical frozen design.** This is not a v0.2 preregistration and is not
+> open for new collection. Its endpoint remains attached to its old bits; no
+> endpoint swap or retrospective v0.2 analysis is permitted.
+
 ## Hypothesis
 
 Primary null hypothesis: the intervention condition and control condition have equal binary outcome probability P(1).

@@ -48,10 +48,15 @@ def main() -> None:
         })
     manifest = {
         "packet": "GATE03_external_reproduction_packet_v0_1",
+        "status": "historical_not_operator_ready",
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "file_count": len(files),
         "files": files,
-        "boundary": "GATE-03 external reproduction only; no final ToE closure promotion.",
+        "boundary": (
+            "Historical v0.1 only; no endpoint swap on old bits; no v0.2 "
+            "packet before Objects 1-5 are apparatus-sourced; no final ToE "
+            "closure promotion."
+        ),
     }
     (ROOT / "PACKET_MANIFEST.json").write_text(json.dumps(manifest, indent=2))
     print(json.dumps({"file_count": len(files), "manifest": str(ROOT / "PACKET_MANIFEST.json")}, indent=2))

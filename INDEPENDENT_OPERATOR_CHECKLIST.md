@@ -1,5 +1,9 @@
 # Independent Operator Checklist
 
+> **Historical v0.1 checklist — do not issue to a new operator.** A replacement
+> checklist is blocked until Objects 1–5 are apparatus-sourced and a distinct
+> v0.2 packet is frozen.
+
 Before data collection:
 
 - Confirm you are not the theory author and are operating independently.

@@ -1,7 +1,8 @@
 {
   "packet": "GATE03_external_reproduction_packet_v0_1",
-  "generated_utc": "2026-07-03T17:45:01.146605+00:00",
-  "file_count": 26,
+  "status": "historical_not_operator_ready",
+  "generated_utc": "2026-08-31T20:08:36.765207+00:00",
+  "file_count": 28,
   "files": [
     {
       "path": ".gitignore",
@@ -10,28 +11,28 @@
     },
     {
       "path": "CLAUDE_FABLE_GATE03_AUDIT_PROMPT.md",
-      "size_bytes": 2543,
-      "sha256": "ddbf1770206536b44fb5d92e66e13a786c55bb8e5e548228dc2e3b17c279b581"
+      "size_bytes": 2710,
+      "sha256": "38038ea65a27016b7bae80f78d33fff89858393550b8afda6bfec245de3e83ae"
     },
     {
       "path": "CODEX_RELEASE_NOTES.md",
-      "size_bytes": 761,
-      "sha256": "7e08d3de86f7e605e66874e5c993f4baeabaf4a36e0fbf4db5c4e67f7b6ada99"
+      "size_bytes": 1040,
+      "sha256": "601b891396fe124a43bf7071bfe070e791e293b2c07bae341d6fe58616f25022"
     },
     {
       "path": "DATA_SCHEMA.md",
-      "size_bytes": 1131,
-      "sha256": "3991ae8e1cffb01dfd5c865ce28e669c860cc2dc263675e0bfd6637f7d95acdd"
+      "size_bytes": 1287,
+      "sha256": "aef471e73a9dd98b2bf2652de9211b7b77824216b8ed020a58c51c5873d963d2"
     },
     {
       "path": "INDEPENDENT_OPERATOR_CHECKLIST.md",
-      "size_bytes": 1039,
-      "sha256": "5bb41fe293357677923bc7c618533591c773d2984e09f3018d87616b4f1aef26"
+      "size_bytes": 1227,
+      "sha256": "9521322a67d798acd867f8baa40df1031acf897e6ead71c065b557fc0d3fd45b"
     },
     {
       "path": "LAB_STATUS.md",
-      "size_bytes": 1266,
-      "sha256": "94c2afe4c06dd7adbf5ca10d90b75dee9d9270f97508650dac9eca8537385aa5"
+      "size_bytes": 1866,
+      "sha256": "52c8e20eb6b3a5643e1c95aa5c15ec21b947d8f16d7d61222747249fb30cfb4b"
     },
     {
       "path": "Makefile",
@@ -40,13 +41,23 @@
     },
     {
       "path": "PREREGISTRATION.md",
-      "size_bytes": 2186,
-      "sha256": "2d5b51f5cdacbefa044f0796f5dc1c10f48d7903f192c6c46014886d0f8f7520"
+      "size_bytes": 2403,
+      "sha256": "b4fcae7e6e2976ed623c3d2a4c790c44172898892f8172fbdba57c8249b124af"
     },
     {
       "path": "README.md",
-      "size_bytes": 3118,
-      "sha256": "8fd13fbeb1e578682ba77bdb9347d51d00bba9e4621c0a48527e96009fab9cb8"
+      "size_bytes": 4153,
+      "sha256": "c6cefebaad229e1079f599a3d4086f6b85de6ab27e79f59a8b0124133ee9baf7"
+    },
+    {
+      "path": "V0_2_APPARATUS_STUB.md",
+      "size_bytes": 1889,
+      "sha256": "6d0a8b2fdf8cb06fe19226354f9a45f835cf5c5806dcc050f86e0f4fa8c9d8d4"
+    },
+    {
+      "path": "results/README.md",
+      "size_bytes": 291,
+      "sha256": "829f9d705cb284b4f5cb538c6cbd390cf1616b47b984faa13099fa2252d399af"
     },
     {
       "path": "results/recovered_icloud_formal_meditation_report.json",
@@ -85,8 +96,8 @@
     },
     {
       "path": "scripts/build_packet_manifest.py",
-      "size_bytes": 1627,
-      "sha256": "986014818a3feb4541b27ac56e88f52e738dbf537dc8d87d7bb6d5e2caafdfa7"
+      "size_bytes": 1805,
+      "sha256": "29d952019594237b43c6494c9dfbefefc9615dc53eaab92a0ac1d6f8dc666a58"
     },
     {
       "path": "scripts/make_synthetic_blocks.py",
@@ -134,5 +145,5 @@
       "sha256": "9aa67dd67ddd1f7ecf9802216a77d6e76d704bed4c21542b6e3ebe637d7299b6"
     }
   ],
-  "boundary": "GATE-03 external reproduction only; no final ToE closure promotion."
+  "boundary": "Historical v0.1 only; no endpoint swap on old bits; no v0.2 packet before Objects 1-5 are apparatus-sourced; no final ToE closure promotion."
 }

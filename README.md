@@ -1,6 +1,14 @@
 # GATE-03 External Reproduction Packet v0.1
 
-Purpose: restart the lab on the one path that can actually move the MQGT-SCF evidence boundary: an independently reproducible empirical QRNG/count-data run.
+> **HISTORICAL v0.1 — NOT AN ACTIVE OPERATOR PACKET.** Commit `e72625cd`
+> and tag `gate03-v0.1-freeze` preserve the original design and endpoint.
+> Do not hand this packet out as v0.2, do not collect new data under it, and
+> do not reinterpret its old bits with a replacement endpoint. A v0.2 packet
+> is blocked until Objects 1–5 are apparatus-sourced. See
+> [`V0_2_APPARATUS_STUB.md`](V0_2_APPARATUS_STUB.md); that file is a boundary
+> stub, not a preregistration.
+
+Historical purpose: define an independently reproducible QRNG/count-data run.
 
 This packet is intentionally narrower than the full Theory-of-Everything corpus. It tests only GATE-03. It cannot promote final closure by itself.
 
@@ -33,6 +41,9 @@ The smoke test regenerates a synthetic null set and a deliberately positive synt
 - Produces hash-logged output for raw block files and the analysis report.
 - Blocks post-hoc gate promotion unless the run is independent and the missing externality requirement is satisfied.
 
+These statements describe v0.1 historically; they are not authorization to use
+v0.1 for new collection.
+
 ## What This Packet Does Not Do
 
 - It does not solve UV completion.
@@ -64,7 +75,10 @@ python3 scripts/analyze_blocks.py tests/synthetic_formal_null/*.json --out resul
 
 Expected: the analyzer should report a null/not-promotable result for the synthetic null set.
 
-## Real Independent Run
+## Historical Independent-Run Procedure
+
+The following is retained so commit `e72625cd` remains interpretable. Do not
+execute it as a current protocol or replace its endpoint while reusing old bits.
 
 1. Freeze this packet by recording SHA-256 hashes for every file.
 2. Send the frozen packet to an independent operator.
@@ -84,3 +98,10 @@ The analyzer can produce only these statuses:
 - `candidate_support_requires_attestation`: formal statistical criteria are met, but external attestation/raw-data review is still required.
 
 No output of this packet is allowed to become `final_toe_closure_complete`.
+
+## Endpoint Immutability
+
+- Old v0.1 bits stay attached to the frozen v0.1 control/intervention endpoint.
+- The prospective live-time and $\hat y$ vocabulary belongs only to the blocked v0.2 stub. $P(1)$ remains the frozen v0.1 endpoint and, for any future packet, a null control rather than the primary hypothesis.
+- Old recovered or synthetic bits cannot be re-scored under that prospective
+  vocabulary and cannot seed a v0.2 evidence claim.

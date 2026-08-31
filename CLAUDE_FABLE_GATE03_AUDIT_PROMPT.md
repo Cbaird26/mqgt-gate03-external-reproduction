@@ -1,5 +1,9 @@
 # Claude/Fable Audit Prompt - GATE-03 External Reproduction Packet
 
+> **Historical audit prompt.** It audits frozen v0.1 only. It must not be used
+> to certify operator readiness for v0.2 or to approve an endpoint swap on old
+> bits.
+
 You are reviewing a frozen MQGT-SCF GATE-03 external-reproduction packet.
 
 Repository/package path:
