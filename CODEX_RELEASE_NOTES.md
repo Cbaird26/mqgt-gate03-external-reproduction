@@ -11,7 +11,7 @@ boundary before then.
 
 Created from:
 
-`/Users/christophermichaelbaird/Downloads/Codex_MQGT_Lab_Index_2026-07-02/GATE03_external_reproduction_packet_v0_1`
+`~/Downloads/Codex_MQGT_Lab_Index_2026-07-02/GATE03_external_reproduction_packet_v0_1`
 
 Purpose:
 

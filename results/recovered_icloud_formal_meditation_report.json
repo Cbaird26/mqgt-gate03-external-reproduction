@@ -8,7 +8,7 @@
   "formal_run_count": 3,
   "runs": [
     {
-      "path": "/Users/christophermichaelbaird/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_001431_e259c51c_blocks.json",
+      "path": "~/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_001431_e259c51c_blocks.json",
       "sha256": "59011fb33808c93d622ffdb041f73e87caa64cd18260c65cfd092f965cd35363",
       "run_id": "qrng_experiment_20260314_001431_e259c51c",
       "operator_id": "",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "path": "/Users/christophermichaelbaird/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_004101_c72a681e_blocks.json",
+      "path": "~/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_004101_c72a681e_blocks.json",
       "sha256": "abc890d7b6a8ba9e33ae085e62dac64736f69d76d420a6f335839aaf261aacb6",
       "run_id": "qrng_experiment_20260314_004101_c72a681e",
       "operator_id": "",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "path": "/Users/christophermichaelbaird/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_010459_ccb8f429_blocks.json",
+      "path": "~/iCloud Drive (Archive)/Desktop/TOE_Corpus_2026/artifacts/qrng_experiment_20260314_010459_ccb8f429_blocks.json",
       "sha256": "2e985fee7ae2a605cabfc57a9ae2c9b6034537c0df2267bacc9c01cdfb1a8729",
       "run_id": "qrng_experiment_20260314_010459_ccb8f429",
       "operator_id": "",
