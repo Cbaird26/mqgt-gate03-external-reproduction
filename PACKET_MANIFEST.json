@@ -1,13 +1,18 @@
 {
   "packet": "GATE03_external_reproduction_packet_v0_1",
   "status": "historical_not_operator_ready",
-  "generated_utc": "2026-08-31T20:08:36.765207+00:00",
-  "file_count": 28,
+  "generated_utc": "2026-10-14T18:13:43.065903+00:00",
+  "file_count": 35,
   "files": [
     {
       "path": ".gitignore",
       "size_bytes": 62,
       "sha256": "fd177cf0b2052d66f07e024f6217e2928d950f2238de26862040fa6d3a0bb90e"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 355,
+      "sha256": "9bbc6f05386d65884590c9ca0f5bfdcdd64d729b053ce6b33202bcc293c3b141"
     },
     {
       "path": "CLAUDE_FABLE_GATE03_AUDIT_PROMPT.md",
@@ -16,8 +21,8 @@
     },
     {
       "path": "CODEX_RELEASE_NOTES.md",
-      "size_bytes": 1040,
-      "sha256": "601b891396fe124a43bf7071bfe070e791e293b2c07bae341d6fe58616f25022"
+      "size_bytes": 1011,
+      "sha256": "e669cf1740d8219354ca0ffeb6f323440a49bb04a899cce9f83b98bffdb56f8a"
     },
     {
       "path": "DATA_SCHEMA.md",
@@ -35,9 +40,19 @@
       "sha256": "52c8e20eb6b3a5643e1c95aa5c15ec21b947d8f16d7d61222747249fb30cfb4b"
     },
     {
+      "path": "LICENSE",
+      "size_bytes": 18658,
+      "sha256": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    },
+    {
       "path": "Makefile",
       "size_bytes": 223,
       "sha256": "31d57168ea55309b06e91b10ff46004e092af2938459d528d8af22a39d7da55c"
+    },
+    {
+      "path": "OBJECT1_NO_LAB_SOURCE.md",
+      "size_bytes": 5635,
+      "sha256": "c51d77ec9cad9aa173e9c5a58de81fdac4a3af1481ac12ef4b17838aa91c4a85"
     },
     {
       "path": "PREREGISTRATION.md",
@@ -46,23 +61,43 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4153,
-      "sha256": "c6cefebaad229e1079f599a3d4086f6b85de6ab27e79f59a8b0124133ee9baf7"
+      "size_bytes": 4238,
+      "sha256": "0594bc1b6ed415f4b18509cc58ba6a084bc92383f78730682a57d5d44da472c7"
     },
     {
       "path": "V0_2_APPARATUS_STUB.md",
-      "size_bytes": 1889,
-      "sha256": "6d0a8b2fdf8cb06fe19226354f9a45f835cf5c5806dcc050f86e0f4fa8c9d8d4"
+      "size_bytes": 2306,
+      "sha256": "690c113c460896dbe034f9d0cf7323c167ec46850a7a42d5b54d703f519f0b3e"
+    },
+    {
+      "path": "data/formal_runs_2026-03-14/README.md",
+      "size_bytes": 1444,
+      "sha256": "54281bf2646f2b2cfbeb8aaaca0314d7f779e92c0552a49cbdf9695346a8464c"
+    },
+    {
+      "path": "data/formal_runs_2026-03-14/qrng_experiment_20260314_001431_e259c51c_blocks.json",
+      "size_bytes": 6172,
+      "sha256": "59011fb33808c93d622ffdb041f73e87caa64cd18260c65cfd092f965cd35363"
+    },
+    {
+      "path": "data/formal_runs_2026-03-14/qrng_experiment_20260314_004101_c72a681e_blocks.json",
+      "size_bytes": 7846,
+      "sha256": "abc890d7b6a8ba9e33ae085e62dac64736f69d76d420a6f335839aaf261aacb6"
+    },
+    {
+      "path": "data/formal_runs_2026-03-14/qrng_experiment_20260314_010459_ccb8f429_blocks.json",
+      "size_bytes": 7852,
+      "sha256": "2e985fee7ae2a605cabfc57a9ae2c9b6034537c0df2267bacc9c01cdfb1a8729"
     },
     {
       "path": "results/README.md",
-      "size_bytes": 291,
-      "sha256": "829f9d705cb284b4f5cb538c6cbd390cf1616b47b984faa13099fa2252d399af"
+      "size_bytes": 1544,
+      "sha256": "95d6fb8b3a9556456e34303b7f8850ca01b730a55a6f7a88d7bdb0f97d885a90"
     },
     {
       "path": "results/recovered_icloud_formal_meditation_report.json",
-      "size_bytes": 3541,
-      "sha256": "28f12423b6a7c1de156dd8d0fae5a5ef75acd0aeb4bfb67a02fc121385d02f03"
+      "size_bytes": 3454,
+      "sha256": "2aaabea14388878c72ea429e9a968e16df775d3013e9f0bdded833ad8906d745"
     },
     {
       "path": "results/recovered_icloud_formal_meditation_report.md",
